@@ -5,10 +5,6 @@ Demo videos for paper: Optimizing Object and Scene Generation Based on DreamScen
 
 This project enhances the [DreamScene](https://github.com/DreamScene-Project/DreamScene) framework by integrating **3D Gaussian Splatting** with **NeRF supervision** to improve quality and consistency in text-to-3D object and scene generation. We use a PixelNeRF-based encoder for parameter initialization and employ NeRF-rendered RGB, depth, and weight for loss supervision.
 
-<p align="center">
-  <img src="images/pipeline.png" width="80%" alt="Pipeline Overview">
-</p>
-
 ---
 
 ## 📌 Key Features
