@@ -33,9 +33,15 @@ Here are comparisons between the original DreamScene outputs and our enhanced re
 
 > 📁 You can find all videos in the [assets folder](https://github.com/HE1107/Optimizing-Object-and-Scene-Generation-Based-on-DreamScene-demo-videos/).
 
+## 📜 Citation
+
+If you use this project, please cite:
+
+```bibtex
 @project{dreamscene-enhanced,
   title={Optimizing Object and Scene Generation Based on DreamScene},
   author={Du Chunyang, Qian Yifan, He Yufei, Quan Yurou, Zhuo Shuming},
   year={2025}
 }
+
 
