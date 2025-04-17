@@ -1,2 +1,57 @@
 # Optimizing-Object-and-Scene-Generation-Based-on-DreamScene-demo-videos
 Demo videos for paper: Optimizing Object and Scene Generation Based on DreamScene
+
+# 🧠 Optimizing Object and Scene Generation Based on DreamScene
+
+This project enhances the [DreamScene](https://github.com/DreamScene-Project/DreamScene) framework by integrating **3D Gaussian Splatting** with **NeRF supervision** to improve quality and consistency in text-to-3D object and scene generation. We use a PixelNeRF-based encoder for parameter initialization and employ NeRF-rendered RGB, depth, and weight for loss supervision.
+
+<p align="center">
+  <img src="images/pipeline.png" width="80%" alt="Pipeline Overview">
+</p>
+
+---
+
+## 📌 Key Features
+
+- ✅ Combines **3D Gaussian Splatting** with **PixelNeRF-based NeRF supervision**
+- ✅ Uses NeRF to generate RGB, depth, and opacity supervision signals
+- ✅ Initializes Gaussian parameters from PixelNeRFNet encodings
+- ✅ Maintains DreamScene’s real-time rendering while boosting visual quality
+- ✅ YAML-based configuration for flexible object/scene generation
+
+---
+
+## 🧪 Demo Videos
+
+Click below to view our generated outputs:
+
+## 🧪 Demo Videos
+
+Here are comparisons between the original DreamScene outputs and our enhanced results:
+
+| Object         | DreamScene Baseline                                   | Ours (NeRF Supervised)                              |
+|----------------|--------------------------------------------------------|-----------------------------------------------------|
+| 🧴 Blue Bottle | [video_rgb_blue_bottle——dreamscene.mp4](./video_rgb_blue_bottle——dreamscene.mp4) | [video_rgb_blue_bottle——ours.mp4](./video_rgb_blue_bottle——ours.mp4) |
+| 🐟 Fish        | [video_rgb_fish——dreamscene.mp4](./video_rgb_fish——dreamscene.mp4)             | [video_rgb_fish——ours.mp4](./video_rgb_fish——ours.mp4) |
+| 🍇 Grapes      | [video_rgb_grapes——dreamscene.mp4](./video_rgb_grapes——dreamscene.mp4)         | [video_rgb_grapes——ours.mp4](./video_rgb_grapes——ours.mp4) |
+| 💡 Lamp        | [video_rgb_lamp——dreamscene.mp4](./video_rgb_lamp——dreamscene.mp4)             | [video_rgb_lamp——ours.mp4](./video_rgb_lamp——ours.mp4) |
+| 🪵 Wood House  | [video_rgb_wood house——dreamscene.mp4](./video_rgb_wooden_house——dreamscene.mp4) | [video_rgb_wood house——ours.mp4](./video_rgb_wood house——ours.mp4) |
+
+> 📁 All video files are included in this repository root directory.
+
+
+> 📁 You can find all videos in the [assets folder](https://github.com/HE1107/Optimizing-Object-and-Scene-Generation-Based-on-DreamScene-demo-videos/tree/main/assets).
+
+---
+
+## 🛠️ Environment Setup
+
+```bash
+conda create -n dreamscene python=3.10
+conda activate dreamscene
+
+# Install PyTorch (adjust CUDA version as needed)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# Install dependencies
+pip install -r requirements.txt
