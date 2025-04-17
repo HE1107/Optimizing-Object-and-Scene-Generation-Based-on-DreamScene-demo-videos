@@ -31,7 +31,7 @@ Here are comparisons between the original DreamScene outputs and our enhanced re
 > 📁 All video files are included in this repository root directory.
 
 
-> 📁 You can find all videos in the [assets folder](https://github.com/HE1107/Optimizing-Object-and-Scene-Generation-Based-on-DreamScene-demo-videos/tree/main/assets).
+> 📁 You can find all videos in the [assets folder](https://github.com/HE1107/Optimizing-Object-and-Scene-Generation-Based-on-DreamScene-demo-videos/).
 
 @project{dreamscene-enhanced,
   title={Optimizing Object and Scene Generation Based on DreamScene},
