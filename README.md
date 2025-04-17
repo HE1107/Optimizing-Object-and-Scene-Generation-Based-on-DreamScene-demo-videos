@@ -35,23 +35,11 @@ Here are comparisons between the original DreamScene outputs and our enhanced re
 | 🐟 Fish        | [video_rgb_fish——dreamscene.mp4](./video_rgb_fish——dreamscene.mp4)             | [video_rgb_fish——ours.mp4](./video_rgb_fish——ours.mp4) |
 | 🍇 Grapes      | [video_rgb_grapes——dreamscene.mp4](./video_rgb_grapes——dreamscene.mp4)         | [video_rgb_grapes——ours.mp4](./video_rgb_grapes——ours.mp4) |
 | 💡 Lamp        | [video_rgb_lamp——dreamscene.mp4](./video_rgb_lamp——dreamscene.mp4)             | [video_rgb_lamp——ours.mp4](./video_rgb_lamp——ours.mp4) |
-| 🪵 Wood House  | [video_rgb_wood house——dreamscene.mp4](./video_rgb_wooden_house——dreamscene.mp4) | [video_rgb_wood house——ours.mp4](./video_rgb_wood house——ours.mp4) |
+| 🪵 Wood House  | [video_rgb_wood house——dreamscene.mp4](./video_rgb_wooden_house——dreamscene.mp4) | [video_rgb_wood house——ours.mp4](./video_rgb_wooden_house——ours.mp4) |
 
 > 📁 All video files are included in this repository root directory.
 
 
 > 📁 You can find all videos in the [assets folder](https://github.com/HE1107/Optimizing-Object-and-Scene-Generation-Based-on-DreamScene-demo-videos/tree/main/assets).
 
----
 
-## 🛠️ Environment Setup
-
-```bash
-conda create -n dreamscene python=3.10
-conda activate dreamscene
-
-# Install PyTorch (adjust CUDA version as needed)
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-
-# Install dependencies
-pip install -r requirements.txt
