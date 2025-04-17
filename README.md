@@ -19,11 +19,6 @@ This project enhances the [DreamScene](https://github.com/DreamScene-Project/Dre
 - ✅ Maintains DreamScene’s real-time rendering while boosting visual quality
 - ✅ YAML-based configuration for flexible object/scene generation
 
----
-
-## 🧪 Demo Videos
-
-Click below to view our generated outputs:
 
 ## 🧪 Demo Videos
 
